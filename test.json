@@ -1,0 +1,100 @@
+{
+  "person": [
+	{
+	 "name": "Jan",
+	 "surname": "Kowalski",
+	 "age": 25,
+	 "sex": "M"
+	}
+  ],
+  "address": [
+	{
+	 "street": "Wesola 16",
+	 "city": "Warszawa",
+	 "country": "Polska"
+	}
+  ],
+  "costs": [
+	{
+	 "type": "const_cost",
+	 "name": "Zona",
+	 "value": 800,
+	 "start_month": 3
+	},
+	{
+	 "type": "const_cost",
+	 "name": "Leasing Samochodu",
+	 "value": 1400,
+	 "start_month": 8
+	},
+	{
+	 "type": "const_cost",
+	 "name": "Dzieci",
+	 "value": 1050,
+	 "start_month": 6
+	},
+	{
+	 "type": "period_cost",
+	 "name": "Kochanka",
+	 "value": 1500,
+	 "start_month": 8,
+	 "end_month": 10
+	},
+	{
+	 "type": "period_cost",
+	 "name": "Kochanka",
+	 "value": 1500,
+	 "start_month": 8,
+	 "end_month": 10
+	},
+	{
+	 "type": "period_cost",
+	 "name": "Oszczednosci",
+	 "value": 500,
+	 "start_month": 12,
+	 "end_month": 15
+	}
+  ],
+  "incomes": [
+	{
+	 "type": "employment",
+	 "name": "Informatyk",
+	 "value_per_hour": 40,
+	 "hours_in_month": 160,
+	 "start_month": 1,
+	 "end_month": 7
+	},
+	{
+	 "type": "employment",
+	 "name": "Senior PHP Programmer",
+	 "value_per_hour": 80,
+	 "hours_in_month": 160,
+	 "start_month": 7,
+	 "end_month": 15
+	},
+	{
+	 "type": "one_time_impact",
+	 "name": "Lotto",
+	 "value": 100,
+	 "month": 5
+	},
+	{
+	 "type": "one_time_impact",
+	 "name": "Bonus for job",
+	 "value": 100,
+	 "month": 5
+	},
+	{
+	 "type": "one_time_impact",
+	 "name": "Bonus for job",
+	 "value": 500,
+	 "month": 9
+	},
+	{
+	 "type": "one_time_impact",
+	 "name": "Bonus for job",
+	 "value": 1500,
+	 "month": 13
+	}
+  ]
+}
